@@ -1,0 +1,42 @@
+{
+  "name": "ripple-payment-quote",
+  "version": "0.1.0",
+  "description": "Interface for quoting ripple payment prices",
+  "main": "build",
+  "scripts": {
+    "test": "npm run build && mocha -R spec build/test/ --timeout 5000",
+    "build": "gulp"
+  },
+  "author": {
+    "name": "Steven Zeiler"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "gulp": "^3.8.10",
+    "gulp-6to5": "^1.0.2",
+    "lodash": "^2.4.1",
+    "qs": "^2.3.3",
+    "ripple-rest-client": "^1.13.0"
+  },
+  "_id": "ripple-payment-quote@0.1.0",
+  "dist": {
+    "shasum": "9b68f0168c3ec3bb49026a7c2b53219119ba29c6",
+    "tarball": "http://registry.npmjs.org/ripple-payment-quote/-/ripple-payment-quote-0.1.0.tgz"
+  },
+  "_from": "ripple-payment-quote@",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "stevenzeiler",
+    "email": "zeiler.steven@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "stevenzeiler",
+      "email": "zeiler.steven@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "9b68f0168c3ec3bb49026a7c2b53219119ba29c6",
+  "_resolved": "https://registry.npmjs.org/ripple-payment-quote/-/ripple-payment-quote-0.1.0.tgz"
+}
